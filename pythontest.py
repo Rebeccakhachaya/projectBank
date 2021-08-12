@@ -25,13 +25,21 @@ def smallest():
 x=["a","b","a","e","d","b","c","e","f","g",]
 print(x)
 x.remove
-print(x)
-students = [{"age": 45, "name": "jane"}, {"age": 21, "name": "laura"},{"age": 18, "name": "frida"}, {"age": 22, "name": "Asha"}]
-def student():
-    for each in students:
-        print("Hello {}, you were born in the year {}".format(student['name'],2021-student['age']))
 
-student()
+
+print(x)
+def greeting(student_list):
+    for item in student_list:
+        birth_year=2021-item["age"]
+        name=item["name"]
+        print(f"Hello {name} you were born in the year {birth_year}")
+
+greeting([{"age": 19, "name": "Eunice"}, 
+ {"age": 21, "name": "john"}, {"age": 18, "name": "mercy"}, {"age": 22, "name": "Asha"}])
+
+
+
+
 
 
 class Rectangle():
